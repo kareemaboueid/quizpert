@@ -1,8 +1,6 @@
-# Quizpert
+# Quizpert - Smarter Quizzes for Sharper Hiring
 
-### _Smarter Quizzes for Sharper Hiring_
-
----
+See the [SRS](docs/Quizpert_SRS.md) for more details on the project.
 
 ## Description
 
@@ -13,8 +11,6 @@ With Quizpert, companies can create, assign, and evaluate multiple-choice quizze
 Whether you're hiring engineers, designers, analysts, or other technical roles â€” Quizpert turns casual quiz sessions into meaningful evaluation data.
 
 > Quizpert is not a full recruitment or applicant tracking system. It specializes exclusively in **interview-related quiz management**.
-
----
 
 ## Key Features
 
@@ -30,16 +26,12 @@ Whether you're hiring engineers, designers, analysts, or other technical roles â
 - **Detailed Answer Records**  
   Get per-question breakdowns, answer logs, and scoring insights to support hiring decisions and reporting.
 
----
-
 ## Who Is Quizpert For?
 
 - Recruiters and Hiring Managers  
 - HR Departments with technical recruiting needs  
 - Department Leads / Engineering Managers  
 - Small to Mid-Sized Companies that need lightweight, interview-specific tools
-
----
 
 ## Technical Overview
 
@@ -54,8 +46,6 @@ Whether you're hiring engineers, designers, analysts, or other technical roles â
 - `Result`: Submission + scoring of a quiz by a user
 - `AnswerRecord`: Detailed answer logs per question
 
----
-
 ## Tech Stack
 
 | Layer           | Toolset                                                      |
@@ -67,8 +57,6 @@ Whether you're hiring engineers, designers, analysts, or other technical roles â
 | **DevOps**      | Docker, PM2, GitHub Actions (CI/CD), dotenv                  |
 | **Testing**     | Jest/Vitest                                                  |
 | **Docs & Logs** | Swagger (via Fastify), Winston or Pino logger                |
-
----
 
 ## Proof of Concept Focus
 
@@ -92,8 +80,6 @@ The Proof of Concept (PoC) covers the core experience for both Admins and Users:
 - Auto-evaluate submissions
 - Generate results
 - Store answer records
-
----
 
 ## License
 
