@@ -57,30 +57,3 @@ Whether you're hiring engineers, designers, analysts, or other technical roles â
 | **DevOps**      | Docker, PM2, GitHub Actions (CI/CD), dotenv                  |
 | **Testing**     | Jest/Vitest                                                  |
 | **Docs & Logs** | Swagger (via Fastify), Winston or Pino logger                |
-
-## Proof of Concept Focus
-
-The Proof of Concept (PoC) covers the core experience for both Admins and Users:
-
-### Admin Flow
-
-- Create quizzes and QA items
-- Create users (applicants)
-- Assign quizzes
-- Review results
-
-### User Flow
-
-- Access assigned quiz
-- Submit answers
-- View confirmation (optional)
-
-### System Behavior
-
-- Auto-evaluate submissions
-- Generate results
-- Store answer records
-
-## License
-
-_This project is currently under development. Licensing information will be added upon release._
